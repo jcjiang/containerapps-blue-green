@@ -48,7 +48,6 @@ resource blueGreenDeploymentApp 'Microsoft.App/containerApps@2022-11-01-preview'
   }
   properties: {
     environmentId: containerAppsEnvironment.id
-    workloadProfileName: 'Consumption'
     configuration: {
       maxInactiveRevisions: 10 // Remove old inactive revisions
       activeRevisionsMode: 'multiple' // Multiple active revisions mode is required when using traffic weights
