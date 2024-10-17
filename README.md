@@ -1,4 +1,4 @@
-# ContainerApps Blue-Green
+# ContainerApps Blue-Green Test
 
 This is a sample project to demonstrate how to implement blue-green deployment CI workflow for container apps.
 
